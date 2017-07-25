@@ -1,0 +1,31 @@
+{
+  "facts": {
+    "odd.makemodel": {
+      "timestamp": "2017-01-14T20:58:07-08:00",
+      "source": "d3",
+      "tags": [
+        "device"
+      ],
+      "ttl": 180,
+      "value": "Pixi2-7_4G_TMO"
+    },
+    "odd.device.software.signalproblemreport": {
+      "timestamp": "2017-01-14T20:58:07-08:00",
+      "source": "d3",
+      "tags": [
+        "device"
+      ],
+      "ttl": 180,
+      "value": true
+    },
+    "odd.device.software.signalstrength": {
+      "timestamp": "2017-01-14T20:58:07-08:00",
+      "source": "d3",
+      "tags": [
+        "device"
+      ],
+      "ttl": 180,
+      "value": -10
+    }
+  }
+}

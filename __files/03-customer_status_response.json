@@ -1,0 +1,31 @@
+{
+			"facts": {
+				"odd.device.contract.enddate": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": "2017-10-13T12:00:00-04:00"
+				},
+				"odd.device.customer.status": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": "silver"
+				},
+				"odd.device.customer.points": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": 2.25
+				}
+			}
+}

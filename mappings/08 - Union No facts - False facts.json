@@ -1,0 +1,30 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/unionthreaded/v2/facts",
+		"headers": {
+			"system_identifier": {
+				"contains": ""
+			},
+			"auth_header": {
+				"contains": ""
+			}
+		},
+		"bodyPatterns": [
+			{
+				"equalToJson": "{\n \"msisdn\":\"1234567890\",\n \"imei\":\"111111111000400\",\n \"imsi\":\"123456000000000\"\n}",
+				"ignoreArrayOrder": true,
+				"ignoreExtraElements": true
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+			"facts": {}
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+			"facts": {
+				"odd.device.software.maximum_data_usage": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": 4000
+				},
+				"odd.device.software.dataUsageExceedAlert": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": true
+				}
+			}
+}

@@ -1,0 +1,28 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/unionthreaded/v2/facts",
+		"headers": {
+			"system_identifier": {
+				"contains": ""
+			},
+			"auth_header": {
+				"contains": ""
+			}
+		},
+		"bodyPatterns": [
+			{
+				"equalToJson": "{\n \"msisdn\":\"1234567890\",\n \"imei\":\"111222333444555\"\n}",
+				"ignoreArrayOrder": true,
+				"ignoreExtraElements": true
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "01-signal_strength_1_response.json",
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/unionthreaded/v2/facts",
+		"headers": {
+			"system_identifier": {
+				"contains": ""
+			},
+			"auth_header": {
+				"contains": ""
+			}
+		},
+		"bodyPatterns": [
+			{
+				"equalToJson": "{\n \"msisdn\":\"1234567890\",\n \"imei\":\"707111111111111\",\n \"imsi\":\"123456000000000\"\n}",
+				"ignoreArrayOrder": true,
+				"ignoreExtraElements": true
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+			"facts": {
+				"odd.device.contract.startdate": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": "2014-10-13"
+				},
+				"odd.device.iphone.model": {
+					"timestamp": "2017-01-15T04:58:07.000+0000",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": "5s"
+				}
+			}
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

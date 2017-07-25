@@ -1,0 +1,29 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "WiremockStarterMain"
+
+repositories {
+    mavenCentral()
+}
+
+println projectDir
+
+
+dependencies {
+
+    compile group: 'com.github.tomakehurst', name: 'wiremock-standalone', version: '2.4.1'
+    compile "junit:junit:4.12"
+    compile 'com.jayway.restassured:rest-assured:2.9.0'
+}
+
+run {
+    maxHeapSize = "512M"
+    args = [
+            "--port", "8088",
+            "--https-port", "8444",
+            "--root-dir", projectDir,
+            "--verbose"
+    ]
+}

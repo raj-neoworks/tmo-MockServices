@@ -1,0 +1,41 @@
+{
+			"facts": {
+				"odd.makemodel": {
+					"timestamp": "2017-01-14T20:58:07-08:00",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": "Pixi2-7_4G_TMO"
+				},
+				"odd.device.software.datausage": {
+					"timestamp": "2017-01-14T20:58:07-08:00",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": 3500
+				},
+				"odd.device.software.maximum_data_usage": {
+					"timestamp": "2017-01-14T20:58:07-08:00",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": 4000
+				},
+				"odd.device.software.dataUsageExceedAlert": {
+					"timestamp": "2017-01-14T20:58:07-08:00",
+					"source": "d3",
+					"tags": [
+						"device"
+					],
+					"ttl": 180,
+					"value": true
+				}
+			}
+}
+
