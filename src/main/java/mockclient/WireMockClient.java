@@ -1,4 +1,4 @@
-package Common;
+package mockclient;
 
 /**
  * Created by rgovindarajan on 20/07/17.

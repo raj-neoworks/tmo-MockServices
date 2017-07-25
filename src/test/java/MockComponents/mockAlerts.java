@@ -3,10 +3,9 @@ package MockComponents;
 /**
  * Created by rgovindarajan on 20/07/17.
  */
-import Common.WireMockClient;
+import mockclient.WireMockClient;
 import com.github.tomakehurst.wiremock.client.HttpAdminClient;
 import com.github.tomakehurst.wiremock.stubbing.StubMapping;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
